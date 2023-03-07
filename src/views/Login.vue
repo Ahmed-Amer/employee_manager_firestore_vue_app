@@ -46,7 +46,7 @@ export default {
                     // Signed in 
                     const user = userCredential.user;
                     alert('Welcome ' + auth.currentUser.email);
-                     this.$router.push('/');
+                    this.$router.push('/');
                     //this.$router.go({ path: this.$router.path });
                 })
                 .catch((error) => {
